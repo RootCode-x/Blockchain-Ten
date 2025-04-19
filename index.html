@@ -54,7 +54,8 @@
     </a>
    
     <div class="flex gap-3 items-center">
-      <button @click="openModal" class="btn-primary">Login</button>
+      <button @click="window.location.href='https://panel.tenstagematrix.com/login.php'" class="btn-primary">Login</button>
+
      
     </div>
    
@@ -106,7 +107,10 @@
             </h2>
             <p class="mb-8 xl:mb-10 max-w-md lg:text-lg fade_up_anim" data-delay="0.2">A decentralized, blockchain-integrated platform empowering community-driven donations, ensuring transparency, security, and efficient resource distribution for sustainable impact.</p>
             <div x-data="modal" class="flex gap-6 fade_up_anim" data-delay="0.4">
-              <button @click="openModal" class="btn-primary">Registration Now</button>
+              <button @click="window.location.href='https://panel.tenstagematrix.com/register.php'" class="btn-primary">
+                Registration Now
+              </button>
+              
              
               
             </div>
